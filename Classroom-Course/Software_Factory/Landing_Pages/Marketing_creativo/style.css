@@ -1,0 +1,133 @@
+body{
+    /*Cor de Fundo do Site*/
+    background-color: rgb(34, 34, 34);
+
+    /*Cor De todas as fontes*/
+    color: white;
+
+    /*Definir a familia da fonte usada*/
+    font-family: poppinsregular;
+
+    /*Definir a Largura maxima do elemento*/
+    max-width: 1200px;
+
+    /*definir o conteudo no meio*/
+    margin: 0 auto;
+
+    /*Espacamento interno*/
+    padding: 15px;
+}
+
+header{
+    /*Deixa os item desse elemento movimenyaveis*/
+    display: flex;
+
+    /*Determina a direcao em que os elementos ficaram*/
+    flex-direction: row; /*um do lado do outro*/
+
+    /*Cria uma distancia igual entre os elementos*/
+    justify-content: space-between;
+
+    /*alinha os elementos*/
+    align-items: center;
+}
+
+#title{ 
+
+    /*escolhe a direacao do display*/
+    flex-direction: column;
+
+    /*deixa a linha mais junto*/
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(132, 14, 201);
+    transition: 0.3s all;
+}
+
+#inscrevase-brt{
+    border: 2px solid rgb(132, 13, 201);
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#inscrevase-brt:hover{
+    background-color: rgb(132, 13, 201);
+    color: white;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(132, 13, 201);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: poppislight;
+}
+
+img{
+    width: 580px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(132, 13, 201);
+    color: white;
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+    
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
+
+
+
+
+
+
+

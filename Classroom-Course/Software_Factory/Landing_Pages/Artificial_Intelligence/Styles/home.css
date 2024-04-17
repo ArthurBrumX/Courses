@@ -1,0 +1,921 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/*Header - cabecalho*/
+body{
+    background-color: rgba(9, 151, 151, 0.712);
+    background: url("../Img/pp-parede-2.webp");
+    background-size: 100vh;
+    background-position: top;
+}
+
+header{
+    background-image: url("../Img/card.jpeg");
+    background-size: 100%;
+    background-position: center;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgba(0, 255, 128, 0.522);
+    height: 10vh;
+}
+
+.cabecalho-titulo{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 4vh;
+    font-size: 3vh;
+}
+
+.cabecalho-elementos{
+    display: flex;
+    margin-top: 2%; /*movimentando todo o elemento*/
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+}
+
+a:hover{
+    color: blue;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho-elementos-uni{
+    text-decoration: none;
+    list-style: none; /*para tirar o pontilhado da lista*/
+    margin-left: 5%;
+    margin-top: 1%;
+}
+/*Fim Header - cabecalho*/
+
+/*------------------------------------------*/
+
+/*Main*/
+
+/*Titulo*/
+.titulo{
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+}
+
+.titulo-letra{
+    color: white;
+}
+/*Fim titulo*/
+
+/*------------------------------------------*/
+
+/*cards*/
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.card{
+    height: 40vh;
+    width: 30vh;
+    color: white;
+}
+
+.card:hover{
+    color: blue;
+}
+
+#card-1{
+    background: linear-gradient(rgba(0,0,0.8), rgba(0,0,0,.8)), url("../Img/card.jpeg");
+    background-position: center;
+    background-size: 70vh;
+    background-repeat: no-repeat;
+}
+
+#card-2{
+    background: linear-gradient(rgba(0,0,0.8), rgba(0,0,0,.8)), url("../Img/card.jpeg");
+    background-position: center;
+    background-size: 70vh;
+    background-repeat: no-repeat;
+}
+
+#card-3{
+    background: linear-gradient(rgba(0,0,0.8), rgba(0,0,0,.8)), url("../Img/card.jpeg");
+    background-position: center;
+    background-size: 70vh;
+    background-repeat: no-repeat;
+}
+
+#card-4{
+    background: linear-gradient(rgba(0,0,0.8), rgba(0,0,0,.8)), url("../Img/card.jpeg");
+    background-position: center;
+    background-size: 70vh;
+    background-repeat: no-repeat;
+}
+
+#card-5{
+    background: linear-gradient(rgba(0,0,0.8), rgba(0,0,0,.8)), url("../Img/card.jpeg");
+    background-position: center;
+    background-size: 70vh;
+    background-repeat: no-repeat;
+}
+
+.card-titulo{
+    margin-top: 50%;
+    text-align:center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+}
+/*Fim Cards*/
+/*------------------------------------------*/
+
+/*titulo apresentacao*/
+.titulo-apresentacao{
+    max-width: 25%;
+    margin: 0 auto;
+    margin-top: 13%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3vh;
+    background-color: rgba(0, 0, 255, 0.308);
+    padding: 2%;
+    border-radius: 10%;
+}
+
+.titulo-letra{
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.308);
+    
+}
+/*fim titulo apresentacao*/
+
+/*Galeria de Fotos*/
+
+.secao-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 8%;
+    
+}
+
+.cards-img{
+    height: 40vh;
+    width: 30vh;
+    border: solid aqua;
+    background-color: rgba(0, 0, 255, 0.308);
+}
+
+.nome-img{
+    margin-left: 3%;
+    width: 27vh;
+    font-size: 2vh;
+    margin-top: 3%;
+    text-align: center;
+    color: white;
+}
+
+#foto-1{
+    background-image: url("../galeria/rota-5.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-2{
+    background-image: url("../galeria/rota4.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-3{
+    background-image: url("../galeria/rota-3.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#foto-4{
+    background-image: url("../galeria/rota-2.png");
+    background-position: center;
+    background-size: 120%;
+    background-repeat: no-repeat;
+}
+
+#foto-5{
+    background-image: url("../galeria/rota-1.webp");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-6{
+    background-image: url("../galeria/assistente-1.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-7{
+    background-image: url("../galeria/assistente-2.png");
+    background-position: center;
+    background-size: 150%;
+    background-repeat: no-repeat;
+}
+
+#foto-8{
+    background-image: url("../galeria/assistente-3.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+#foto-9{
+    background-image: url("../galeria/assistente-4.png");
+    background-position: center;
+    background-size: 250%;
+    background-repeat: no-repeat;
+}
+
+#foto-10{
+    background-image: url("../galeria/assistente-5.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-11{
+    background-image: url("../galeria/mecanisco-1.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-12{
+    background-image: url("../galeria/mecanismo-2.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-13{
+    background-image: url("../galeria/mecanismo-3.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-14{
+    background-image: url("../galeria/mecanismo-4.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-15{
+    background-image: url("../galeria/mecanismo-5.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-16{
+    background-image: url("../galeria/reconhecimento-1.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-17{
+    background-image: url("../galeria/reconhecimento-2.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-18{
+    background-image: url("../galeria/reconhecimento-3.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-19{
+    background-image: url("../galeria/reconhecimento-4.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-20{
+    background-image: url("../galeria/reconhecimento-5.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-21{
+    background-image: url("../galeria/seguranca-1.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-22{
+    background-image: url("../galeria/seguranca-2.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-23{
+    background-image: url("../galeria/seguranca-3.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-24{
+    background-image: url("../galeria/seguranca-4.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+#foto-25{
+    background-image: url("../galeria/seguranca-5.png");
+    background-position: center;
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+/*Fim Da galeria*/
+
+/*------------------------------------------*/
+
+/*As 5 ias mais conhecidas*/
+
+.inteli{
+    display: flex;
+    margin-top: 5%;
+    margin-left: 2%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inteli-conteudo{
+    max-width: 80%;
+    margin-left: 5%;
+    margin-top: 5%;
+    
+}
+
+.inteli-titulo{
+    color: white;
+}
+
+.inteli-conteudo-uni{
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 90%;
+    font-size: 3vh;
+    color:blue;
+}
+
+.inteli-img{
+    display: flex;
+    flex-direction: column;
+    border: solid aqua;
+    border-radius: 8%;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0.308);
+}
+
+img{
+    max-width: 90%;
+}
+
+#assistente-img{
+    margin-top: 3vh;
+}
+
+#reconhecimento-img{
+    margin-top: 3vh;
+}
+
+#titulo-img{
+    margin-top: 2%;
+}
+
+.inteli-titulo-card{
+    text-align: center;
+}
+
+/*Fim As 5 ias mais conhecidas*/
+
+/*secao com as 3 partes*/
+/*Historia Das ias*/
+
+.historia-ia{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.paragrafo-conteudo{
+    margin-top: 4%;
+    margin-left: 20vh;
+    max-width: 150vh;
+    font-size: 3vh;
+    color: blue;    
+}
+
+.imagem-demostrativa-historia{
+    background-image: url("../galeria/img-fundo-historia.jpg");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+
+}
+/*Fim Historia das ias*/
+
+/*Ias na atualidade*/
+
+.imagem-demostrativa-atualidade{
+    background-image: url("../galeria/ia-na-atualidade.webp");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+/*Fim IAs na atualidade*/
+
+/*futuro das IAs*/
+
+.imagem-demostrativa-futuro{
+    background-image: url("../galeria/futuro.webp");
+    background-size: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+/*Fim futuro das ias*/
+
+/*Fim Main*/
+
+/*footer*/
+
+.rodape{
+    left: 40%;
+    bottom: 0%;
+    z-index: 0;
+    opacity: 0.90;
+    padding: auto;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+/*Fim Footer*/
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Cabecalho responsivo*/
+
+/*max-width 1070px*/
+
+/*Cabecalho responsivo*/
+
+@media(max-width: 1070px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(0, 255, 128, 0.522);
+        height: 10vh;
+    }
+    
+    .cabecalho-titulo{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 4vh;
+        font-size: 3vh;
+    }
+    
+    .cabecalho-elementos{
+        display: flex;
+        margin-top: 2%; /*movimentando todo o elemento*/
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vh;
+        margin-right: 1vh;
+    }
+    
+    a:hover{
+        color: blue;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .cabecalho-elementos-uni{
+        text-decoration: none;
+        list-style: none; /*para tirar o pontilhado da lista*/
+        margin-left: 5%;
+        margin-right: 7vh;
+    }
+}
+
+/*max-width 1024px*/
+
+@media(max-width: 1024px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(0, 255, 128, 0.522);
+        height: 10vh;
+    }
+    
+    .cabecalho-titulo{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 4vh;
+        font-size: 3vh;
+    }
+    
+    .cabecalho-elementos{
+        display: flex;
+        margin-top: 2%; /*movimentando todo o elemento*/
+        margin-right: 5%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vh;
+        margin-right: 2vh;
+    }
+    
+    a:hover{
+        color: blue;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .cabecalho-elementos-uni{
+        text-decoration: none;
+        list-style: none; /*para tirar o pontilhado da lista*/
+        margin-left: 5%;
+        margin-right: 7vh;
+    }
+}
+
+/*max-width 1000px*/
+
+@media(max-width: 1000px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(0, 255, 128, 0.522);
+        height: 10vh;
+    }
+    
+    .cabecalho-titulo{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 4vh;
+        font-size: 3vh;
+        display: none;
+    }
+    
+    .cabecalho-elementos{
+        display: flex;
+        margin-top: 3%; /*movimentando todo o elemento*/
+        margin-right: 5%
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vh;
+        margin-right: 1vh;
+    }
+    
+    a:hover{
+        color: blue;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .cabecalho-elementos-uni{
+        text-decoration: none;
+        list-style: none; /*para tirar o pontilhado da lista*/
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+}
+
+/*max-width 900px*/
+
+@media(max-width: 900px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(0, 255, 128, 0.522);
+        height: 10vh;
+    }
+    
+    .cabecalho-titulo{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 4vh;
+        font-size: 3vh;
+        display: none;
+    }
+    
+    .cabecalho-elementos{
+        display: flex;
+        margin-top: 3%; /*movimentando todo o elemento*/
+        margin-right: 12%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vh;
+        margin-right: 1vh;
+    }
+    
+    a:hover{
+        color: blue;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .cabecalho-elementos-uni{
+        text-decoration: none;
+        list-style: none; /*para tirar o pontilhado da lista*/
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+}
+
+/*max-width 700px*/
+
+@media(max-width: 700px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(0, 255, 128, 0.522);
+        height: 10vh;
+    }
+    
+    .cabecalho-titulo{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 4vh;
+        font-size: 3vh;
+        display: none;
+    }
+    
+    .cabecalho-elementos{
+        display: flex;
+        margin-top: 3%; /*movimentando todo o elemento*/
+        margin-right: 12%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+        margin-right: 1vh;
+    }
+    
+    a:hover{
+        color: blue;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .cabecalho-elementos-uni{
+        text-decoration: none;
+        list-style: none; /*para tirar o pontilhado da lista*/
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+}
+
+/*max-width 500px*/
+@media(max-width: 500px){
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        background-color: rgba(0, 255, 128, 0.522);
+        height: 10vh;
+    }
+    
+    .cabecalho-titulo{
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        margin-top: 4vh;
+        font-size: 3vh;
+        display: none;
+    }
+    
+    .cabecalho-elementos{
+        display: flex;
+        margin-top: 3%; /*movimentando todo o elemento*/
+        margin-right: 12%;
+    }
+    
+    a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+        margin-right: 1vh;
+    }
+    
+    a:hover{
+        color: blue;
+        font-family: 'Montserrat', sans-serif;
+    }
+    
+    .cabecalho-elementos-uni{
+        text-decoration: none;
+        list-style: none; /*para tirar o pontilhado da lista*/
+        margin-left: 5%;
+        margin-top: 1%;
+    }
+}
+/*Fim Cabecalho Responsivo*/
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*Titulo responsivo*/
+
+/*max-width 1070px*/
+@media(max-width: 1070px){
+
+    .titulo{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vh;
+    }
+
+    .titulo-letra{
+        color: white;
+        background-color: rgba(0, 0, 255, 0.308);
+        font-size: 3vh;
+    }
+}
+
+/*max-width 1024px*/
+@media(max-width: 1024px){
+
+    .titulo{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 3vh;
+    }
+
+    .titulo-letra{
+        color: white;
+        background-color: rgba(0, 0, 255, 0.308);
+    }
+}
+
+/*max-width 1000px*/
+@media(max-width: 1000px){
+
+    .titulo{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+    }
+
+    .titulo-letra{
+        color: white;
+        background-color: rgba(0, 0, 255, 0.308);
+    }
+}
+
+/*max-width 900px*/
+@media(max-width: 900px){
+
+    .titulo{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+    }
+
+    .titulo-letra{
+        color: white;
+        background-color: rgba(0, 0, 255, 0.308);
+    }
+}
+
+/*max-width 700px*/
+@media(max-width: 700px){
+
+    .titulo{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+    }
+
+    .titulo-letra{
+        color: white;
+        background-color: rgba(0, 0, 255, 0.308);
+    }
+}
+
+/*max-width 500px*/
+@media(max-width: 500px){
+
+    .titulo{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 2vh;
+    }
+
+    .titulo-letra{
+        color: white;
+        background-color: rgba(0, 0, 255, 0.308);
+    }
+}
+/*Fim titulo*/
+
+/*Responsividade Cards*/
+
+@media(max-width: 1024px){
+    .cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    }
+
+    .card{
+        flex-direction: column;
+        display: flex;
+        height: 40vh;
+        width: 30vh;
+        color: white;
+    }
+
+    .card:hover{
+        color: blue;
+    }
+}
+
+
+/*Fim Responsividade cards*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

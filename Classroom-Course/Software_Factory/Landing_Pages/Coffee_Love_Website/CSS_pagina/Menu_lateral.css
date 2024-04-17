@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-image: url("../Img_Coffe/pp_parede.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.cabecalho{
+    width: 10%;
+    height: 200%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(24, 179, 179);
+
+}
+
+.logo{
+    width: 100%;
+}
+
+.cabecalho-menu{
+    text-align: center;
+    position: relative;
+    margin-top: 20%;
+    height: 50%;
+}
+
+.item{
+    margin-top: 25%;
+}
+
+/*--------------------------------------*/
+
+.logout{
+    text-align: center;
+    position: relative;
+    margin-top: 45%;
+    height: 20%;
+}
+
+.logout-item{
+    background-color: blue;
+    margin-top: 80%;
+    margin-bottom: 75%;
+    border-radius: 50px;
+    width: 70%;
+    margin-left: 15px;
+}
+
+.letras{
+    color: white;
+}
+
+/*-------------------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
