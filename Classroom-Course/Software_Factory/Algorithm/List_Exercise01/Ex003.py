@@ -1,4 +1,5 @@
-# 3 - Faça um algoritmo que leia o nome, o título eleitoral e o numero do candidato. Posteriormente imprima o resultado de cada variável linha abaixo de linha.
+# 3 - Faça um algoritmo que leia o nome, o título eleitoral e o numero do candidato. 
+# Posteriormente imprima o resultado de cada variável linha abaixo de linha.
 
 print ("=" * 60)
 
@@ -7,8 +8,8 @@ print ("*** Cabine Eleitoral ***")
 
 print ("-" * 60)
 
-print ("* Seja Bem Vindo Cidadão! ")
-print ("* Insira Seus Dados Para Prosseguirmos!")
+print ("* Seja Bem Vindo Cidadão!! *")
+print ("* Insira Seus Dados Para Prosseguirmos!! *")
     # Apresentação Ao Usuário.
 
 print ("=" * 60)
@@ -18,12 +19,12 @@ nome = input("-Digite Seu Nome Completo: ")
     # Tipo Da Variável = Str (String).
     # Função = Entrada De Dados.
 
-titulo = float(input("-Digite Seu Ttitulo De Eleitor Completo: "))
+titulo = int(input("- Digite Seu Ttitulo De Eleitor Completo: "))
     # Nome Da Variável = titulo.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
 
-numero_candidato = float(input("-Digite o Seu Numero De Candidatura: "))
+numero_candidato = float(input("- Digite o Seu Numero Do seu Candidato "))
     # Nome Da Variável = numero_candidato.
     # Tipo Da Variável = Float (Real).
     # Função = Entrada De Dados.
