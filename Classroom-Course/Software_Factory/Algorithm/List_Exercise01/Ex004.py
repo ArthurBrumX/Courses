@@ -1,4 +1,5 @@
-# 4 - Faça um algoritmo que leia o nome, a placa do carro, o modelo do carro e a cor do carro. Posteriormente imprima o resultado de cada variável linha abaixo de linha.
+# 4 - Faça um algoritmo que leia o nome, a placa do carro, o modelo do carro e a cor do carro. 
+# Posteriormente imprima o resultado de cada variável linha abaixo de linha.
 
 print ("=" * 60)
 

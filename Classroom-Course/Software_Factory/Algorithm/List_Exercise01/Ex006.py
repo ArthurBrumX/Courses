@@ -1,9 +1,10 @@
-# 6 - Faça um algoritmo que calcule a área de um retangulo. Posteriormente imprima o resultado.
+# 6 - Faça um algoritmo que calcule a área de um retangulo. 
+# Posteriormente imprima o resultado.
 
 print ("=" * 60)
 
-print ("*** Calculo De Retângulo! ***")
-print ("*** Bem-vindo Usuário! ***")
+print ("*** Calculadora De Retângulo!!! ***")
+print ("*** Bem-vindo Usuário(a)!!! ***")
     # Apresentação Ao usuário.
 
 print ("=" * 60)

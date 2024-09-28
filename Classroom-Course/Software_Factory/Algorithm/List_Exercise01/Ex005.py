@@ -1,5 +1,6 @@
-# 5 - Faça um algoritmo que leia o nome do aluno, o nome da disciplina, notas de 3 provas e calcule a média desse aluno. Posteriormente imprima o resultado de cada variável
-# linha abaixo de linha.
+# 5 - Faça um algoritmo que leia o nome do aluno, o nome da disciplina,
+# notas de 3 provas e calcule a média desse aluno. 
+# Posteriormente imprima o resultado de cada variável linha abaixo de linha.
 
 print ("=" * 60)
 
@@ -72,19 +73,19 @@ print ("* As Notas De ({}) foram: ".format(nome))
 
 print ()
 
-print ("* 1° Bimestre: {}".format(primeira_nota))
+print ("* 1° Nota: {}".format(primeira_nota))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}
         # Ex: .format(Nome_da_Variável)
 
-print ("* 2° Bimestre: {}".format(segunda_nota))
+print ("* 2° Nota: {}".format(segunda_nota))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}
         # Ex: .format(Nome_da_Variável)
 
-print ("* 3° Bimestre: {}".format(terceira_nota))
+print ("* 3° Nota: {}".format(terceira_nota))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}
@@ -92,7 +93,7 @@ print ("* 3° Bimestre: {}".format(terceira_nota))
 
 print ("-" * 60)
 
-print ("Sua Média Bimestral é: {}".format(media))
+print ("Sua Média De Nota é: {}".format(media))
     # Função = Saída De Dados.
     # Apresentando Mensagem Na Tela.
     # .format = Formata o Texto, Alocando o Valor De Uma Variável No Espaço: {}

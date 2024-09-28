@@ -6,7 +6,7 @@ print ("=" * 60)
 print ("*** Cabine Eleitoral ***")
     # Apresentação Ao Usuário.
 
-print ("-" * 60)
+print ("=" * 60)
 
 print ("* Seja Bem Vindo Cidadão!! *")
 print ("* Insira Seus Dados Para Prosseguirmos!! *")

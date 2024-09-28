@@ -1,4 +1,5 @@
-# 7 - Faça um algoritmo que calcule a área de um triângulo. Posteriormente imprima o resultado.
+# 7 - Faça um algoritmo que calcule a área de um triângulo. 
+# Posteriormente imprima o resultado.
 
 print ("=" * 60)
 
