@@ -1,4 +1,5 @@
-# 8 - Faça um algoritmo que calcule o custo estimado de uma viagem de carro. Posteriormente imprima o resultado.
+# 8 - Faça um algoritmo que calcule o custo estimado de uma viagem de carro. 
+# Posteriormente imprima o resultado.
 
 print ("=" * 60)
 

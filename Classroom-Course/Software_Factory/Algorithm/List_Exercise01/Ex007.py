@@ -3,7 +3,7 @@
 
 print ("=" * 60)
 
-print ("*** Calculo De Triângulo ***")
+print ("*** Calculadora De Triângulo! ***")
 print ("*** Bem-vindo Usuário! ***")
     # Boas-Vindas Ao Usuário!
 
