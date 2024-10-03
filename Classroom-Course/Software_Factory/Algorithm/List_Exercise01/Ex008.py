@@ -1,4 +1,5 @@
-# 8 - Faça um algoritmo que calcule o custo estimado de uma viagem de carro. 
+# 8 - Faça um algoritmo que calcule o custo estimado de uma viagem de carro.
+# Ultilizando uma estrutura condicional. 
 # Posteriormente imprima o resultado.
 
 print ("=" * 60)
